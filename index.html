@@ -13,10 +13,10 @@
     <p class="subtitle">that does not work yet</p>
     <hr class="hor">
     <div class="links">
-        <input type="text" placeholder="long URL" class="links"></input>
+        <input type="text" placeholder="long URL" class="links" required pattern="(a^|^((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]+\.[a-z]+(\/[a-zA-Z0-9#]+\/?)*$)"></input>
     </div>
     <div class="links2">
-        tide.link/<input type="text" placeholder="short link" class="links"></input>
+        tide.link/<input type="text" placeholder="short link" class="links" required pattern="^((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]+\.[a-z]+(\/[a-zA-Z0-9#]+\/?)*$"></input>
     </div>
     <div class="buttondiv">
         <button class="assign">assign link</button>

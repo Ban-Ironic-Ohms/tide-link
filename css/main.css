@@ -91,3 +91,7 @@ input:focus, textarea:focus, select:focus{
     transform: translateY(4px) translateX(-2px);
     transition: .1s;
 }
+
+input:invalid {
+    border: 2px dashed #bd9f3c;
+}
